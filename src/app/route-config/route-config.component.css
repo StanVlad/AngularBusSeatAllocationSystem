@@ -1,0 +1,15 @@
+#title
+{
+  color: orange;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.form-element
+{
+  text-align: center;
+  color: orange;
+  font-size: 1.2em;
+}

@@ -1,0 +1,37 @@
+<h2 id="title">Travel route configurator</h2>
+<br/>
+<form style="margin-bottom: 50px;">
+  <div class="form-element">
+    <label style="margin-right: 20px;">Select starting point</label>
+    <select [formControl]="city1">
+      <option value="Bucuresti">Bucuresti</option>
+      <option value="Buzau">Buzau</option>
+      <option value="Craiova">Craiova</option>
+      <option value="Sibiu">Sibiu</option>
+      <option value="Iasi">Iasi</option>
+      <option value="Targu Jiu">Targu Jiu</option>
+      <option value="Constanta">Constanta</option>
+      <option value="Arad">Arad</option>
+      <option value="Sinaia">Sinaia</option>
+      <option value="Vaslui">Vaslui</option>
+    </select>
+  </div>
+  <br/>
+  <div class="form-element">
+    <label style="margin-right: 20px;">Select destination</label>
+    <select [formControl]="city2">
+      <option value="Bucuresti">Bucuresti</option>
+      <option value="Buzau">Buzau</option>
+      <option value="Craiova">Craiova</option>
+      <option value="Sibiu">Sibiu</option>
+      <option value="Iasi">Iasi</option>
+      <option value="Targu Jiu">Targu Jiu</option>
+      <option value="Constanta">Constanta</option>
+      <option value="Arad">Arad</option>
+      <option value="Sinaia">Sinaia</option>
+      <option value="Vaslui">Vaslui</option>
+    </select>
+  </div>
+</form>
+
+<app-final-step [plecare]="city1.value" [destinatie]="city2.value"></app-final-step>
