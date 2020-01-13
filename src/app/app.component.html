@@ -1,0 +1,25 @@
+<div class="ribbon">
+  <h2 class="app-title"> BusTickets.com </h2>
+  <p class="app-button" (click)="toRegister()">
+    Register
+  </p>
+  <p class="app-button" (click)="toSignIn()">
+    Sign In
+  </p>
+</div>
+<div class="header">
+  <img id="header-image" src="../assets/bus-image.png">
+  <h1 id="moto">
+    Get your ticket now!
+  </h1>
+</div>
+<div class="ribbon">
+  <p class="app-button-2" (click)="findRoutes()">
+    Bus Routes
+  </p>
+  <p class="app-button-2" (click)="aboutUs()">
+    About Us
+  </p>
+</div>
+
+<router-outlet></router-outlet>
