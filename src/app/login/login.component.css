@@ -1,0 +1,33 @@
+#my-form
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.field-label
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: orange;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.input-field
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit-button
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: orange;
+  font-size: 1.2em;
+  font-weight: bold;
+}
