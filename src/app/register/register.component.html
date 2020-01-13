@@ -1,0 +1,28 @@
+<form id="my-form">
+  <label class="field-label">First Name</label>
+  <input class="input-field" type="text" name="first-name" [(ngModel)]="user.firstName">
+  <br/>
+  <label class="field-label">Last Name</label>
+  <input class="input-field" type="text" name="last-name" [(ngModel)]="user.lastName">
+  <br/>
+  <label class="field-label">Email</label>
+  <input class="input-field" type="email" name="email" [(ngModel)]="user.email">
+  <br/>
+  <label class="field-label">Alias</label>
+  <input class="input-field" type="text" name="alias" [(ngModel)]="user.alias">
+  <br/>
+  <label class="field-label">Password</label>
+  <input class="input-field" type="password" name="password" [(ngModel)]="user.passwords.password">
+  <br/>
+  <label class="field-label">Confirm Password</label>
+  <input class="input-field" type="password" name="confirm-password" [(ngModel)]="user.passwords.confirm_password">
+  <br/>
+  <br/>
+  <br/>
+  <button id="submit-button" (click)="register()">Create my account!</button>
+</form>
+
+<ul>
+  <li *ngFor="let u of users">{{ u.firstName }} {{ u.lastName }} {{ u.email }} {{ u.alias }} {{ u.passwords.password }} {{ u.passwords.confirm_password }}</li>
+</ul>
+
