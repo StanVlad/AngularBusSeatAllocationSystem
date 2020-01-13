@@ -1,0 +1,25 @@
+<div id="form-container">
+  <h2>Searching routes from <span class="city">{{plecare}}</span> to <span class="city">{{destinatie}}</span> </h2>
+  <form>
+    <div class="form-elem">
+      <label style="margin-right: 10px; font-size: 1.2em; color: orange;">Departure hour</label>
+      <select>
+        <option value="8">8:00</option>
+        <option value="10">10:00</option>
+        <option value="12">12:00</option>
+        <option value="14">14:00</option>
+        <option value="16">16:00</option>
+      </select>
+    </div>
+    <div class="form-elem">
+      <label style="margin-right: 10px; font-size: 1.2em; color: orange;">Ticket type</label>
+      <select>
+        <option value="normal">Normal - fara reducere</option>
+        <option value="student">Student - redus 25%</option>
+        <option value="pensionar">Pensionar - redus 50%</option>
+        <option value="donator">Donator - redus 75%</option>
+      </select>
+    </div>
+    <button (click)="buyTicket()" id="app-button">Buy now!</button>
+  </form>
+</div>
