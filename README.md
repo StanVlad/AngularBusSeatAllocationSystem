@@ -1,6 +1,6 @@
 Proiect realizat folosind Andular CLI.
 
-Website-ul este structurat pe componente angular, fiecare componenta avand fisie html si css customizate. Clasele aferente cuprind metodele aferente. Cateva detalii tehnice:
+Website-ul este structurat pe componente angular, fiecare componenta avand fisiere html si css customizate. Clasele aferente cuprind metodele necesare. Cateva detalii tehnice:
 
 - redirectionarea din butoane se face cu router.navigate
 - fisierul app-routing.module.ts contine rutele disponibile
